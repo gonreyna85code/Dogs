@@ -1,0 +1,29 @@
+.start {
+  background-image: url("./dog_landing.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  padding-bottom: 100%;
+  overflow: hidden;
+  scroll-behavior: hidden;
+ 
+}
+.button {
+  border-radius: 7px;
+  position: absolute;
+  color: black;
+  top: 70%;
+  left: 23%;
+  background-color:grey;
+  font-size:35px;
+}
+.title{
+    color: silver;
+    font-size: 37px;
+    position: absolute;
+    top: 15%;
+  left: 9%;
+
+}

@@ -1,0 +1,125 @@
+.create {
+  background-image: url("./dog_landing.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  padding-bottom: 100%;
+  color: silver;
+  text-align: center;
+}
+.create_title {
+  text-align: start;
+  margin-left: 14%;  
+  margin-top: 0px;
+  position: inherit;
+  padding-top: 3%;
+}
+.icon {
+  display: flex;  
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 3%;
+  background-color: black;
+  border-radius: 10px;
+  border: 2px transparent solid;
+  border-color: silver;
+}
+.img{
+    width: 45px;
+}
+.create_container {
+  flex-direction: column;
+  display: flex;  
+  width: 100%;;
+  margin-top: 3%;
+}
+.field{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+}
+.text_box {
+  font-size: 30px;
+  margin-right: 55%;
+  align-items:center;
+}
+.check_box {
+  font-size: 25px;  
+  margin-right: 55%;
+}
+.create_button {
+  border-radius: 7px;
+  color: black;
+  background-color: grey;
+  font-size: 27px;
+  margin-top: 3%;
+  margin-right: 13%;
+}
+.multi{
+    font-size:13px;
+}
+#name {
+    height: 23px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+#height1 {
+  width: 33px;
+  height: 23px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+#height2 {
+    width: 33px;
+    height: 23px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+#weight1 {
+    width: 33px;
+    height: 23px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+#weight2 {
+    width: 33px;
+    height: 23px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+#life1 {
+  width: 30px;
+  height: 23px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+#life2 {
+    width: 33px;
+    height: 23px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    
+}
+#temps {
+    width:150px;
+    height: 180px;
+    margin-top: 6px;
+    border: solid 4px silver;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+  }
+  input::placeholder{
+    color: grey;
+  }

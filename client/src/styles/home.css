@@ -1,0 +1,134 @@
+.home {
+  background-image: url("./1534541.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 100%;
+  overflow: hidden;
+  scroll-behavior: hidden;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  margin-top: 50px;
+  margin-left: 18px;
+  margin-right: 18px;
+  height: 40px;
+}
+.filtros {
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #5e5e5e;
+  width: 100%;
+  border-radius: 50px;
+  color: #ffffff77;
+  font-size: large;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+  align-content: space-between;
+  height: 380px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  border: 2px solid;
+  border-color: #b9b9b9;
+  color: #2e2e2e;
+  width: 300px;
+  height: 180px;
+  overflow: hidden;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.card_image {
+  width: 100%;
+}
+.card_title {
+  position: absolute;
+  margin-top: 120px;
+  font-size: larger;
+  font-weight: bolder;
+  overflow: hidden;
+  width: inherit;
+  text-align: center;
+  text-shadow: 1px 1px #ffffff;
+}
+.navbar {
+  display: flex;
+  height: 50px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: stretch;
+  background-color: transparent;
+}
+#input {
+  height: 70px;
+}
+.home_algo {
+  margin-left: 7px;
+  width: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.home_icon_container {
+  margin-top: 18px;
+  margin-left: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 220px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px transparent solid;
+  border-color: grey;
+  position: absolute;
+  color: silver;
+  font-weight: bold;
+}
+input[type="search" i] {
+  background-color: transparent;
+  border-radius: 25px;
+  color: white;
+  width: 400px;
+  font-size: larger;
+}
+.search_home {
+  background-color: transparent;
+  color: silver;
+  border-radius: 20px;
+}
+.pager_container {
+  border-color: #5e5e5e;
+  display: flex;
+  color: #ffffff77;
+  font-size: large;
+  justify-content: center;
+  margin-top: 4%;
+  height: 35px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+.pager {
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #5e5e5e;
+  width: 10%;
+  border-radius: 50px;
+  color: #ffffff77;
+  font-size: large;
+  font-weight: 600;
+}
