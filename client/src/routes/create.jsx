@@ -7,7 +7,6 @@ import "../styles/create.css";
 
 export default function Create() {
   const dispatch = useDispatch();
-  let history = useHistory();
   const [Name, setName] = useState("");
   const [Height1, setHeight1] = useState("");
   const [Height2, setHeight2] = useState("");
