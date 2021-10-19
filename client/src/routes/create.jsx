@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getTemps, postBreed } from "../redux/actions.js";
-import { useHistory } from "react-router-dom";
 import icon from "../styles/icon2.jpg";
 import dog from "../styles/dog.jpg";
 import "../styles/create.css";
