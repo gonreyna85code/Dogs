@@ -39,7 +39,7 @@ export default function Filter() {
         Order ↑↓
       </button> 
       <select  className="filtros" onClick={change} defaultValue="">
-        <option key="0" value="" disabled>
+        <option key="0" value="" disabled hidden>
         &nbsp;&nbsp;SELECT TEMPERAMENT:
         </option>
         <option key="01" value="">

@@ -1,18 +1,21 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { useDispatch } from "react-redux";
 import { getSearch } from "../redux/actions";
 
 export default function Navbar() {
   const dispatch = useDispatch();
-  function change() {
-    const t = document.getElementById("header-search").value;
-    dispatch(getSearch(t));
+  const [input, setinput] = useState('')
+  function Change(e) {
+    setinput(e.target.value);   
+    getSearch(input);
   }
+  useEffect(() => {
+    dispatch(getSearch(input));
+  }, [dispatch, input]);
   return (
     <nav>
       <div className="navbar">
-        <input type="search" onChange={e => change()} id="header-search" placeholder="  Search Breeds" />
-        
+        <input type="search" onChange={Change} id="header-search" placeholder="  Search Breeds" />        
       </div>
     </nav>
   );

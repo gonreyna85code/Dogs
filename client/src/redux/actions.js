@@ -60,11 +60,13 @@ export function getAbc() {
   return { type: "GET_ABC" };
 }
 export function postBreed(breed) {
-  return async function (dispatch) {
-    try {
-      await axios.post("http://localhost:3001/breed", breed);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  
+    return async function (dispatch) {
+      try {
+        if(breed !== ''){await axios.post("http://localhost:3001/breed", breed)};
+      } catch (error) {
+        console.log(error);
+      }
+    };
+  
 }

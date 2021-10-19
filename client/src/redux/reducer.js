@@ -15,6 +15,7 @@ const initialState = {
   Dog: [],
   Temps: [],
   Filtrados: [],
+  Post:[]
 };
 
 function rootReducer(state = initialState, action) {
@@ -74,7 +75,8 @@ function rootReducer(state = initialState, action) {
     };
   }
   if (action.type === GET_SEARCH) {
-    var regex = new RegExp(action.payload, 'ig')
+    var val = action.payload.split(' ').filter(e => e !== '');
+    var regex = new RegExp(val, 'ig')
     return {
       ...state,
       Filtrados: [...state.Dogs].filter((d) => d.name.match(regex)),
