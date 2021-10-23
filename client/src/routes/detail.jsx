@@ -7,6 +7,7 @@ import icon from "../styles/icon2.jpg";
 export default function Detail(props) {
   const id = props.match.params.id;
   const dog = useSelector((state) => state.Dog);
+  console.log(dog)
   const image = dog.image?.url;
   const dispatch = useDispatch();
   useEffect(() => {
