@@ -16,7 +16,6 @@ export default function Home() {
           Create New Breed
           </div>          
         </a>
-        Create New Breed
       </div>     
     <Navbar/>
       <div>        

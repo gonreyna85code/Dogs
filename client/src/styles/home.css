@@ -69,7 +69,7 @@
 .navbar {
   display: flex;
   height: 50px;
-  margin-top: 15px;
+  margin-top:35px;
   justify-content: center;
   align-items: stretch;
   background-color: transparent;
@@ -109,6 +109,7 @@ input[type="search" i] {
   background-color: transparent;
   color: silver;
   border-radius: 20px;
+  
 }
 .pager_container {
   border-color: #5e5e5e;
